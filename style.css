@@ -110,7 +110,7 @@ main {
 #section-4 {
   margin-top: 1rem;
 }
-#section-4 > .dairy-flexbox {
+#section-4 > .items-list {
   margin-top: 1rem;
   display: flex;
   column-gap: 1rem;
@@ -118,29 +118,37 @@ main {
   overflow-y: scroll;
   width: 100%;
 }
-.dairy-flexbox > .item {
+.items-list > .item {
   border: 1px solid rgb(224, 224, 224);
   border-radius: 0.3rem;
   width: 20%;
   padding: 0.5rem;
 }
-.dairy-flexbox img {
+.items-list img {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 8vw;
 }
 .item .title {
-  font-size: 0.8em;
+  font-size: 1.2vw;
 }
 .item .weight {
   color: rgb(157, 157, 157);
-  font-size: 0.8em;
+  font-size: 1vw;
+}
+.item .product-action {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .item .price {
+  font-size: 1.2vw;
   font-weight: 700;
 }
 .item button {
-  width: 100%;
+  width: 6vw;
+  font-size: 1.2vw;
   padding: 0.4rem;
   border: 1px solid green;
   border-radius: 0.4rem;
@@ -167,7 +175,11 @@ footer {
   .search {
     margin-top: 1rem;
     order: 2;
-    width: 100%;
+    width: 95%;
+    align-items: center;
+  }
+  .search > input {
+    padding: 0.5rem 0 0.5rem 2rem;
   }
   nav > a {
     display: block;
