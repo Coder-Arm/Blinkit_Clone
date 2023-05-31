@@ -129,14 +129,17 @@ main {
   margin: auto;
   width: 80%;
 }
-.dairy-flexbox .weight {
+.item .title {
+  font-size: 0.8em;
+}
+.item .weight {
   color: rgb(157, 157, 157);
   font-size: 0.8em;
 }
-.dairy-flexbox .price {
+.item .price {
   font-weight: 700;
 }
-.dairy-flexbox button {
+.item button {
   width: 100%;
   padding: 0.4rem;
   border: 1px solid green;
